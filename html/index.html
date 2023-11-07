@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>HTML Examples</title>
-    <link href="style.css" rel="stylesheet" />
+    <link href="/css/style.css" rel="stylesheet" />
 
   </head>
 
@@ -19,22 +19,27 @@
       </nav>
       
     </header>
-
+    <form>
     <div class="container">
-
-      <form>
+     
+      <div class="item form-title"> 
+      
         <h3>Registration Form</h3>
         <p>Please fill in this form to create an account</p>
-  
+      </div>
+
+      <div class="item first-name"> 
         <label>First Name: *</label>
-        <input
-          type="text"
-          placeholder="Enter First Name"
-          id="fn"
-          name="firstName"
-          required
-        />
-  
+          <input
+            type="text"
+            placeholder="Enter First Name"
+            id="fn"
+            name="firstName"
+            required
+          />
+      </div>
+
+    <div class="item last-name">
         <label>Last Name: *</label>
         <input
           type="text"
@@ -43,7 +48,9 @@
           name="lastName"
           required
         />
+        </div>
   
+        <div class="item email">
         <label>Email: *</label>
         <input
           type="text"
@@ -52,54 +59,76 @@
           name="email"
           required
         />
+      </div>
   
+      <div class="item course">
         <label>Course:</label>
         <select id="course" name="course">
           <option value="1">Java</option>
           <option value="2">C#</option>
           <option value="3">Python</option>
         </select>
-  
-        <label>Description</label>
-        <textarea
-          id="desc"
-          name="desc"
-          placeholder="Tell us about your experiences..."
-        >
-        </textarea>
+
+      </div>
+
+  <div class="item description">
+    <label>Description</label>
+    <textarea
+      id="desc"
+      name="desc"
+      placeholder="Tell us about your experiences..."
+    >
+    </textarea>
+  </div>
+
   
         <hr />
-  
-        <button type="submit" class="register-btn">Register</button>
+  <div class="item button">
+    <button type="submit" class="register-btn">Register</button>
+  </div>
+     
+    </div>
       </form>
   
       <hr />
-      <table>
-        <thead>
-          <tr>
-            <th>Id</th>
-            <th>First Name</th>
-            <th>Last Name</th>
-            <th colspan="2">Action</th>
-          </tr>
-        </thead>
-        <tbody>
-          <tr>
-            <td>1</td>
-            <td>Mehrdad</td>
-            <td>Javan</td>
-            <td><button type="submit">Delete</button></td>
-            <td><button type="submit">Edit</button></td>
-          </tr>
-          <tr>
-            <td>2</td>
-            <td>Simon</td>
-            <td>Elbrink</td>
-            <td><button type="submit">Delete</button></td>
-            <td><button type="submit">Edit</button></td>
-          </tr>
-        </tbody>
-      </table>
+
+
+
+
+
+      <div class="table-grid">
+        <span>
+          <strong>Id</strong>
+        </span>
+        <span>
+          <strong>First Name</strong>
+        </span>
+        <span>
+          <strong>Last Name</strong>
+        </span>
+        <span>
+          <strong>Action</strong>
+        </span>
+        <span>1</span>
+        <span>Mehrdad</span>
+        <span>Javan</span>
+        <span>
+          <button type="submit">Delete</button>
+          <button type="submit">Edit</button>
+        </span>
+        <span>2</span>
+        <span>Simon</span>
+        <span>Elbrink</span>
+        <span>
+          <button type="submit">Delete</button>
+          <button type="submit">Edit</button>
+        </span>
+
+
+      </div>
+
+
+
 
     </div>
 

@@ -1,0 +1,31 @@
+.container {
+    display: grid;
+    grid-template-rows: 90px 40px 40px 40px 40px 40px 40px 40px;
+    grid-template-columns: 600px;
+}
+
+.first-name {
+    grid-row: span 1;
+    grid-row: span 1;
+}
+.last-name {
+    grid-area: 3 / 1 / 4 / 2;
+}
+
+.table-result {
+    display: grid;
+    grid-template-rows: 200px 200px;
+    grid-template-columns: 100px 100px 100px 100px ;
+}
+
+.table-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    border-top: 1px solid black;
+    border-right: 1px solid black;
+}
+.table-grid > span {
+    padding: 8px 4px;
+    border-left: 1px solid black;
+    border-bottom: 1px solid black;
+}
