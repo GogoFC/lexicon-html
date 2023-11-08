@@ -26,4 +26,4 @@
 
 ## Problem I ran into.
 
-![grid problem](./grid-problem.png)
+![grid problem](./grid-problem2.png)
