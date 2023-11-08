@@ -21,3 +21,9 @@
 | [CSS Grid Layout Module](https://www.w3schools.com/css/css_grid.asp) | w3schools.com |
 | [Grid Layout](https://www.w3schools.com/css/tryit.asp?filename=trycss_grid_layout_named) | w3schools.com tryit |
 | [LEARN CSS GRID](https://learncssgrid.com/) | learncssgrid.com |
+
+---
+
+## Problem I ran into.
+
+![grid problem](./grid-problem.png)
