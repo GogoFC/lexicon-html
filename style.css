@@ -1,25 +1,21 @@
 .container {
-    display: grid;
-    grid-template-rows: 1fr;
-    grid-template-columns: 1fr;
-    justify-content: center;
-
+  display: grid;
+  grid-template-rows: 1fr;
+  grid-template-columns: 1fr;
+  justify-content: center;
 }
 
 .container2 {
-    display: grid;
- /*   grid-template-rows: 110px 40px 40px 40px 40px 80px 80px; */
-    grid-template-rows: 110px repeat(4, 1fr) 2.5fr 1fr;
-    grid-template-columns: 1fr;
-    justify-content: center;
-
+  display: grid;
+  /*   grid-template-rows: 110px 40px 40px 40px 40px 80px 80px; */
+  grid-template-rows: 110px repeat(4, 1fr) 2.5fr 1fr;
+  grid-template-columns: 1fr;
+  justify-content: center;
 }
 
 .container2 > div {
-    background-color: aliceblue;
+  background-color: aliceblue;
 }
-
-
 
 /*
 .first-name {
@@ -48,17 +44,16 @@
 */
 
 .table-grid {
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    border-top: 1px solid black;
-    border-right: 1px solid black;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  border-top: 1px solid black;
+  border-right: 1px solid black;
 }
 .table-grid > span {
-    padding: 8px 4px;
-    border-left: 1px solid black;
-    border-bottom: 1px solid black;
+  padding: 8px 4px;
+  border-left: 1px solid black;
+  border-bottom: 1px solid black;
 }
-
 
 /*
 .form-title {
@@ -67,115 +62,105 @@
 }
 */
 
-
 .register-btn {
-    background-color: rgb(81, 121, 243);
-    color: white;
-    padding: 1em;
+  background-color: rgb(81, 121, 243);
+  color: white;
+  padding: 1em;
 
-    cursor: pointer;
-    border-radius: 1em;
-    border: none;
+  cursor: pointer;
+  border-radius: 1em;
+  border: none;
 
-    width: 130px;
+  width: 130px;
+}
 
-  }
-  
-  .register-btn:hover {
-    background-color: rgb(93, 200, 93);
-  }
+.register-btn:hover {
+  background-color: rgb(93, 200, 93);
+}
 
+.delete-btn {
+  background-color: rgb(81, 121, 243);
+  color: white;
+  padding: 0.7em;
 
+  cursor: pointer;
+  border-radius: 0.75em;
+  border: none;
+  width: 57px;
+}
 
+.delete-btn:hover {
+  background-color: #ff4878;
+}
 
-  .delete-btn {
-    background-color: rgb(81, 121, 243);
-    color: white;
-    padding: .7em;
+.edit-btn {
+  background-color: rgb(81, 121, 243);
+  color: white;
+  padding: 0.7em;
 
-    cursor: pointer;
-    border-radius: .75em;
-    border: none;
-    width: 57px;
+  cursor: pointer;
+  border-radius: 0.75em;
+  border: none;
 
+  width: 57px;
+}
 
-  }
-  
-  .delete-btn:hover {
-    background-color: #ff4878;
-  }
+.edit-btn:hover {
+  background-color: #ffc954;
+}
 
-  .edit-btn {
-    background-color: rgb(81, 121, 243);
-    color: white;
-    padding: .7em;
+footer {
+  background-color: rgb(49, 49, 49);
+  padding: 1em;
+  color: white;
 
-    cursor: pointer;
-    border-radius: .75em;
-    border: none;
+  text-align: center;
 
-    width: 57px;
+  font-size: 1.5em;
+}
 
-  }
-  
-  .edit-btn:hover {
-    background-color: #ffc954;
-  }
+nav {
+  float: left;
+  margin: 0 0 1.5em 0;
+  background-color: rgb(49, 49, 49);
+  border-bottom: 5px solid red;
+  padding: 1em;
+}
 
-  footer {
-    background-color: rgb(49, 49, 49);
-    padding: 1em;
-    color: white;
+a {
+  color: white;
+  padding: 1.5em;
+  text-align: center;
+  font-size: 1.5em;
 
-    text-align: center;
+  text-decoration: none;
+}
 
-    font-size: 1.5em;
+a:hover {
+  background-color: rgb(240, 248, 255);
+  color: black;
+}
 
-  }
+input,
+select,
+textarea {
+  padding: 1em;
+  border-radius: 1em;
+  border: 1px solid rgba(126, 113, 184, 0.727);
+  width: 100%;
+  margin-top: 0.5em;
+  margin-bottom: 1em;
+  box-sizing: border-box;
+}
 
-  nav {
-    float: left;
-    margin: 0 0 1.5em 0;
-    background-color: rgb(49, 49, 49);
-    border-bottom: 5px solid red;
-    padding: 1em;
-  }
+strong {
+  text-align: center;
+  color: black;
+}
 
-  a {
-    color: white;
-    padding: 1.5em;
-    text-align: center;
-    font-size: 1.5em;
+span {
+  padding: 0.5em;
+  text-align: center;
 
-    text-decoration: none;
-  }
-
-  a:hover {
-    background-color: rgb(240, 248, 255);
-    color: black;
-
-  }
-
-
-  input, select, textarea {
-    padding: 1em;
-    border-radius: 1em;
-    border: 1px solid rgba(126, 113, 184, 0.727);
-    width: 100%;
-    margin-top: 0.5em;
-    margin-bottom: 1em;
-    box-sizing: border-box;
-  }
-
-
-  strong {
-    text-align: center;
-    color: black;
-  }
-
-  span {
-    padding: 0.5em;
-    text-align: center;
-
-    color: black;
-  }
+  color: black;
+}
