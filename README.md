@@ -9,3 +9,7 @@
 ### Wanted to practice data tables with CSS Grid
 
 [Responsive data tables with CSS Grid - Daniel Salvado - Medium dot Com](https://medium.com/evodeck/responsive-data-tables-with-css-grid-3c58ecf04723)
+
+## GitHub Pages site
+
+[https://gogofc.github.io/lexicon-html/](https://gogofc.github.io/lexicon-html/)
