@@ -1,35 +1,51 @@
 .container {
     display: grid;
-    grid-template-rows: 90px 40px 40px 40px 40px 40px 40px 40px 40px;
+    grid-template-rows: ;
     grid-template-columns: 1fr;
     justify-content: center;
+
 }
 
-.container > div {
+
+.container2 {
+    display: grid;
+    grid-template-rows: 110px 80px 80px 80px 80px 80px 80px;
+    grid-template-columns: 1fr;
+    justify-content: center;
+
+}
+
+.container2 > div {
     background-color: aliceblue;
 }
 
 
 
-
+/*
 .first-name {
     grid-row: span 1;
     grid-row: span 1;
 }
-.last-name {
+*/
+
+/*.last-name {
     grid-area: 3 / 1 / 4 / 2;
 }
+*/
+
+/*
 .description {
     grid-row-start: 6;
     grid-row-end: 8;
 }
+*/
 
+/*
 .button {
-    grid-row-start: 9;
+    grid-row-start: 8;
     grid-row-end: 10;
-    justify-content: right;
 }
-
+*/
 
 .table-grid {
     display: grid;
@@ -44,8 +60,99 @@
 }
 
 
-
+/*
 .form-title {
     grid-row-start: 1;
-    grid-row-end: 3;
+    grid-row-end: 1;
 }
+*/
+
+
+.register-btn {
+    background-color: rgb(81, 121, 243);
+    color: white;
+    padding: 1em;
+
+    cursor: pointer;
+    border-radius: 1em;
+    border: none;
+
+    width: 130px;
+
+  }
+  
+  .register-btn:hover {
+    background-color: rgb(93, 200, 93);
+  }
+
+
+
+
+  .delete-btn {
+    background-color: rgb(81, 121, 243);
+    color: white;
+    padding: .7em;
+
+    cursor: pointer;
+    border-radius: .75em;
+    border: none;
+    width: 57px;
+
+
+  }
+  
+  .delete-btn:hover {
+    background-color: #ff4878;
+  }
+
+  .edit-btn {
+    background-color: rgb(81, 121, 243);
+    color: white;
+    padding: .7em;
+
+    cursor: pointer;
+    border-radius: .75em;
+    border: none;
+
+    width: 57px;
+
+  }
+  
+  .edit-btn:hover {
+    background-color: #ffc954;
+  }
+
+  footer {
+    background-color: rgb(49, 49, 49);
+    padding: 1em;
+    color: white;
+
+    text-align: center;
+
+    font-size: 1.5em;
+
+  }
+
+  nav {
+    width: auto;
+    float: left;
+    margin: 0 0 1.5em 0;
+    background-color: rgb(46, 46, 46);
+    border-bottom: 5px solid red;
+    padding: 1em;
+  }
+
+  a {
+    color: white;
+    padding: 1em;
+    text-align: center;
+    font-size: 1.5em;
+
+    text-decoration: none;
+  }
+
+  a:hover {
+    background-color: rgb(240, 248, 255);
+    color: black;
+
+  }
